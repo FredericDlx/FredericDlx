@@ -4,7 +4,7 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 
 ---
 
-## 📂 Projets Majeurs
+## 📂 Projets
 
 ### 1. 🚕 Prédiction de la durée des courses de taxi à NYC
 **Objectif :** Prédire avec précision la durée des trajets de taxi à New York en combinant analyse spatio-temporelle et modèles de régression avancés.
@@ -48,13 +48,7 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 
 ## 🎓 Formation
 * **Master Executive IA & Data Science**
-* *Focus sur l'IA générative, les modèles prédictifs et l'éthique de la donnée.*
 
 ---
-
-## 📫 Me contacter
-* **LinkedIn :** [Lien vers votre profil]
-* **Email :** [Votre adresse email]
-
 ---
 *Dernière mise à jour : Avril 2026*
