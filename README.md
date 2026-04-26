@@ -11,7 +11,7 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 
 * **Problématique :** Comment la congestion urbaine et la géométrie de la ville influencent-elles le temps de transport ?
 * **Technologies :** `R`, `Tidymodels`, `XGBoost`, `K-Means`.
-* **Points clés :** * Nettoyage de +1 million de lignes.
+* **Points clés :** 
     * *Feature Engineering* complexe (Distances Haversine/Manhattan, encodage cyclique du temps).
     * Approche hybride **Clustering + Elastic Net** pour capturer les spécificités par quartier.
 * **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost (Gain de 22% vs baseline).
@@ -38,7 +38,7 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 
 | Domaine | Outils & Frameworks |
 | :--- | :--- |
-| **Langages** | Python, R, SQL |
+| **Langages** | Python, R, Scala, SQL |
 | **Machine Learning** | Scikit-Learn, XGBoost, Tidymodels, K-Means |
 | **Deep Learning / NLP** | PyTorch, Transformers (BERT), Tokenization |
 | **Visualisation** | ggplot2, Matplotlib, Seaborn |
