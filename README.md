@@ -7,6 +7,9 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 ## 📂 Projets
 
 ### 1. 🚕 Prédiction de la durée des courses de taxi à NYC
+
+https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC/
+
 **Objectif :** Prédire avec précision la durée des trajets de taxi à New York en combinant analyse spatio-temporelle et modèles de régression avancés.
 
 * **Problématique :** Comment la congestion urbaine et la géométrie de la ville influencent-elles le temps de transport ?
