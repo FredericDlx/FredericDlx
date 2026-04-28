@@ -45,10 +45,4 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 | **Outils** | Git, Jupyter, RStudio, Quarto, Google Colab |
 
 ---
-
-## 🎓 Formation
-* **Master Executive IA & Data Science**
-
----
----
 *Dernière mise à jour : Avril 2026*
