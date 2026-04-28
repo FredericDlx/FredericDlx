@@ -24,6 +24,9 @@ https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC/
 ---
 
 ### 2. 📰 Classification d'articles de presse (NLP)
+
+https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
+
 **Objectif :** Étude comparative de modèles de langage (Transformers) pour la catégorisation automatique d'articles de presse française.
 
 * **Problématique :** Un modèle spécialisé (français) est-il plus performant qu'un modèle massif multilingue ?
