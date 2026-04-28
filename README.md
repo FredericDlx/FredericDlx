@@ -39,13 +39,26 @@ https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC/
 
 ## 🛠 Compétences Techniques
 
-| Domaine | Outils & Frameworks |
-| :--- | :--- |
-| **Langages** | Python, R, Scala, SQL |
-| **Machine Learning** | Scikit-Learn, XGBoost, Tidymodels, K-Means |
-| **Deep Learning / NLP** | PyTorch, Transformers (BERT), Tokenization |
-| **Visualisation** | ggplot2, Matplotlib, Seaborn |
-| **Outils** | Git, Jupyter, RStudio, Quarto, Google Colab |
+Langages & Librairies
+
+    Programming: Python, R, SQL
+
+    Data Manipulation: Pandas, NumPy
+
+    Machine Learning & AI: Scikit-learn, PyTorch, TensorFlow
+
+Big Data 
+
+    Processing: Spark (Scala/Python), Hadoop
+
+
+Tools & Infrastructure
+
+    Workspaces: Databricks, Jupyter
+
+    Version Control: Git
+
+    DevOps & Orchestration: Docker, Kubernetes
 
 ---
 *Dernière mise à jour : Avril 2026*
