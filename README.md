@@ -17,7 +17,7 @@ https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC/
 * **Points clés :** 
     * *Feature Engineering* complexe (Distances Haversine/Manhattan, encodage cyclique du temps).
     * Approche hybride **Clustering + Elastic Net** pour capturer les spécificités par quartier.
-* **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost.
+* **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost, **5,8 min** avec Elastic Net + Kmeans et **6,4 min** avec de la régression simple.
 
 
 
