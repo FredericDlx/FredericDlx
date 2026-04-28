@@ -13,11 +13,11 @@ https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC/
 **Objectif :** Prédire avec précision la durée des trajets de taxi à New York en combinant analyse spatio-temporelle et modèles de régression avancés.
 
 * **Problématique :** Comment la congestion urbaine et la géométrie de la ville influencent-elles le temps de transport ?
-* **Technologies :** `R`, `Tidymodels`, `XGBoost`, `K-Means`.
+* **Technologies :** `R`, `XGBoost`, `K-Means`.
 * **Points clés :** 
     * *Feature Engineering* complexe (Distances Haversine/Manhattan, encodage cyclique du temps).
     * Approche hybride **Clustering + Elastic Net** pour capturer les spécificités par quartier.
-* **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost (Gain de 22% vs baseline).
+* **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost.
 
 
 
