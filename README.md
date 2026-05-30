@@ -1,7 +1,5 @@
 # Portfolio Data Science & IA 
 
-Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à partir des données, allant de l'analyse statistique classique aux architectures de Deep Learning les plus récentes.
-
 ---
 
 ## Projets
