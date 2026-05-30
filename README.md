@@ -6,7 +6,7 @@ Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à part
 
 ## Projets
 
-### 1. Prédiction de la durée des courses de taxi à NYC
+### Prédiction de la durée des courses de taxi à NYC
 
 https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
 
@@ -23,7 +23,7 @@ https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
 
 ---
 
-### 2. Classification d'articles de presse (NLP)
+### Classification d'articles de presse (NLP)
 
 https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
 
