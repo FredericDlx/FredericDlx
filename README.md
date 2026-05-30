@@ -1,12 +1,12 @@
-# 🚀 Portfolio Data Science & IA 
+# Portfolio Data Science & IA 
 
 Bienvenue sur mon GitHub ! Je suis passionné par l'extraction de valeur à partir des données, allant de l'analyse statistique classique aux architectures de Deep Learning les plus récentes.
 
 ---
 
-## 📂 Projets
+## Projets
 
-### 1. 🚕 Prédiction de la durée des courses de taxi à NYC
+### 1. Prédiction de la durée des courses de taxi à NYC
 
 https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
 
@@ -23,7 +23,7 @@ https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
 
 ---
 
-### 2. 📰 Classification d'articles de presse (NLP)
+### 2. Classification d'articles de presse (NLP)
 
 https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
 
@@ -40,28 +40,4 @@ https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-
 
 ---
 
-## 🛠 Compétences Techniques
-
-Langages & Librairies
-
-    Programming: Python, R, SQL
-
-    Data Manipulation: Pandas, NumPy
-
-    Machine Learning & AI: Scikit-learn, PyTorch, TensorFlow
-
-Big Data 
-
-    Processing: Spark (Scala/Python), Hadoop
-
-
-Tools & Infrastructure
-
-    Workspaces: Databricks, Jupyter
-
-    Version Control: Git
-
-    DevOps & Orchestration: Docker, Kubernetes
-
----
 *Dernière mise à jour : Avril 2026*
