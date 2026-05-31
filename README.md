@@ -1,5 +1,6 @@
 # Projets en Data Science & IA 
 
+---
 ### Prédire le rendement hebdomadaire des actions du DJIA.
 
 Résumé : Modélisation Prédictive du DJIA🎯 Objectif
@@ -34,6 +35,7 @@ Généralisation : Confrontation avec d'autres fournisseurs de données pour él
 Extension : Test de la méthode sur d'autres marchés géographiques pour valider les invariants structurels.
 
 
+---
 
 ### Prédire la durée des courses de taxi à New-York City
 
