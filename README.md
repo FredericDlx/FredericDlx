@@ -21,7 +21,7 @@ Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-cours
 
 ### Classification d'articles de presse (NLP)
 
-https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
+Rapport court : https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
 
 **Objectif :** Étude comparative de modèles de langage (Transformers) pour la catégorisation automatique d'articles de presse française.
 
