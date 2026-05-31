@@ -37,3 +37,15 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
 
 
 ---
+
+### Data Quality
+
+**Objectif :** Objective of the Project**
+* **Task 1 :**
+   To develop a Python class (which we could name Prov) that can be used to infer the provenance of each of the operations just presented.
+   
+   Given the input data frame(s), output data frame, and the kind of operation (vertical reduction, horizontal reduction, etc.), construct a tensor that informs on the provenance of the data records of the output data frames and how they depend on the input data frames. We will be using binary sparse tensors.
+
+---
+
+
