@@ -4,7 +4,9 @@
 
 ### Prédire de la durée des courses de taxi à NYC
 
-https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
+Résumé : https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
+
+Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-courses-de-taxi-NYC/PredictionTaxisNY.html
 
 **Objectif :** Prédire avec précision la durée des trajets de taxi à New York en combinant analyse spatio-temporelle et modèles de régression avancés.
 
