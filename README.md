@@ -1,6 +1,4 @@
-# Portfolio Data Science & IA 
-
-## Projets
+# Projets en Data Science & IA 
 
 ### Prédire la durée des courses de taxi à New-York City
 
