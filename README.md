@@ -9,7 +9,7 @@ Résumé : Modélisation Prédictive du DJIA🎯 Objectif
 
 * **Données :**
 
-Source : Base longitudinale de 6 400+ instruments depuis 1998 (agrégateur Sovai).
+Source : Agrégateur Sovai.
 Variables : Passage de 88 à 65 descripteurs robustes après élimination des données instables ou colinéaires.
 Intégrité : Neutralisation du biais de survie (incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
 
@@ -18,13 +18,9 @@ Intégrité : Neutralisation du biais de survie (incluant les entreprises radié
 Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
 Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché :
 
-Apprentissage : 2000–2020 (crises tech, 2008, COVID).
-Validation : 2021–2023 (inflation, choc bancaire).
-Test : 2024–Mai 2026 (IA, géopolitique).
-
 * **Modélisation & Résultats :** 
 
-Approches comparées : Régressions linéaires (échec sur la non-stationnarité) vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).
+Approches comparées : Régressions linéaires  vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).
 Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.
 Performance : Supériorité sur la métrique Lift Top 100 et génération d'un alpha robuste malgré la cyclicité économique.
 
