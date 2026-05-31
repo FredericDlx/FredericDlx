@@ -40,6 +40,10 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
 
 ### Data Quality
 
+Project : https://fredericdlx.github.io/Data-Quality/miniproject-DataQuality ExecMaster.pdf
+
+Rapport complet : https://fredericdlx.github.io/Data-Quality/Project_Data_Quality.html
+
 **Objective of the Project**
 * **Task 1 :**
    To develop a Python class (which we could name Prov) that can be used to infer the provenance of each of the operations just presented.
