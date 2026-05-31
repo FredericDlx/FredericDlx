@@ -10,12 +10,12 @@ Résumé : Modélisation Prédictive du DJIA🎯 Objectif
 * **Données :**
     Source : Agrégateur Sovai.
     Variables : Passage de 88 à 65 descripteurs robustes après élimination des données instables ou colinéaires.
-    Intégrité : Neutralisation du biais de survie (incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
+    Intégrité : Neutralisation du biais de survie (en incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
 
 * **Méthodologie :** 
 
     Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
-    Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
+    Validation : Partitionnement chronologique pour tester la robustesse face aux régimes de marché.
 
 * **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`.
 
@@ -28,7 +28,7 @@ Résumé : Modélisation Prédictive du DJIA🎯 Objectif
 * **Perspectives :** 
 
     Généralisation : Confrontation avec d'autres fournisseurs de données pour éliminer les biais résiduels.  
-    Extension : Test de la méthode sur d'autres marchés géographiques pour valider les invariants structurels.
+    Extension : Test de la méthode sur d'autres marchés géographiques.
 
 
 ---
