@@ -40,7 +40,7 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
 
 ### Data Quality
 
-Project : https://fredericdlx.github.io/Data-Quality/miniproject-DataQuality ExecMaster.pdf
+Project : https://fredericdlx.github.io/Data-Quality/miniproject-DataQuality-ExecMaster.pdf
 
 Rapport complet : https://fredericdlx.github.io/Data-Quality/Project_Data_Quality.html
 
