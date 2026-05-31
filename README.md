@@ -90,7 +90,8 @@ Rapport complet : https://fredericdlx.github.io/Data-Quality/Project_Data_Qualit
 * **Task 2:** Using the tensors that capture the provenance, develop operations on
    tensors that can be used to for querying provenance information. That is
    connect given output records with the corresponding input records, and vice
-   versa./
+   versa.
+  
 * **Technologies :** `Python`, `sparse binary tensor`
 ---
 
