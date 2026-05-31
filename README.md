@@ -3,9 +3,9 @@
 ---
 ### Prédire le rendement hebdomadaire des actions du DJIA.
 
-Résumé : 
+Résumé : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-Jones-30-par-Machine-Learning/ratios-fondamentaux-djia-resume.html
 
-rapport complet : 
+rapport complet : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-Jones-30-par-Machine-Learning/ratios-fondamentaux-djia.html
 
 **Objectif :** Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
 
