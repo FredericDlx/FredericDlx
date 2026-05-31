@@ -35,5 +35,3 @@ https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-
 
 
 ---
-
-*Dernière mise à jour : Avril 2026*
