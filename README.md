@@ -2,7 +2,7 @@
 
 ### Prédire la durée des courses de taxi à New-York City
 
-Résumé : https://fredericdlx.github.io/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
+Résumé : https://github.com/FredericDlx/Prediction-de-la-dur-e-des-courses-de-taxi-NYC
 
 Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-courses-de-taxi-NYC/PredictionTaxisNY.html
 
