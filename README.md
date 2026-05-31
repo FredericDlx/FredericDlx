@@ -23,6 +23,9 @@ Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-cours
 
 Résumé : https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
 
+Rapport complet : https://fredericdlx.github.io/Projet-LLM/LLM-Classification-articles-de-presse.html
+
+
 **Objectif :** Étude comparative de modèles de langage (Transformers) pour la catégorisation automatique d'articles de presse en langue française.
 
 * **Problématique :** Un modèle spécialisé (français) est-il plus performant qu'un modèle massif multilingue ?
