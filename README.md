@@ -2,7 +2,7 @@
 
 ### Prédire la durée des courses de taxi à New-York City
 
-Rapport court : https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
+Résumé : https://github.com/FredericDlx/Pr-diction-de-la-dur-e-des-courses-de-taxi-NYC
 
 Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-courses-de-taxi-NYC/PredictionTaxisNY.html
 
@@ -21,7 +21,7 @@ Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-cours
 
 ### Classification d'articles de presse (NLP)
 
-Rapport court : https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
+Résumé : https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
 
 **Objectif :** Étude comparative de modèles de langage (Transformers) pour la catégorisation automatique d'articles de presse française.
 
