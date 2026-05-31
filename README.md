@@ -22,7 +22,9 @@ Validation : Partitionnement chronologique strict pour tester la robustesse face
 * **Modélisation & Résultats :** 
 
 Approches comparées : Régressions linéaires  vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).
+
 Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.
+
 Performance : Supériorité sur la métrique Lift Top 100 et génération d'un alpha robuste malgré la cyclicité économique.
 
 * **Perspectives :** 
