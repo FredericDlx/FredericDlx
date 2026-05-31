@@ -14,8 +14,8 @@ Intégrité : Neutralisation du biais de survie (incluant les entreprises radié
 
 * **Méthodologie :** 
 
-Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
-Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
+* *Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
+* *Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
 
 * **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`.
 
