@@ -5,14 +5,15 @@
 
 Résumé : Modélisation Prédictive du DJIA🎯 Objectif
 
-Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
-* **Données & Curation :**
+**Objectif :** Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
+
+* **Données :**
 
 Source : Base longitudinale de 6 400+ instruments depuis 1998 (agrégateur Sovai).
 Variables : Passage de 88 à 65 descripteurs robustes après élimination des données instables ou colinéaires.
 Intégrité : Neutralisation du biais de survie (incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
 
-* **Méthodologie :**
+* **Méthodologie :** 
 
 Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
 Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché :
@@ -21,15 +22,13 @@ Apprentissage : 2000–2020 (crises tech, 2008, COVID).
 Validation : 2021–2023 (inflation, choc bancaire).
 Test : 2024–Mai 2026 (IA, géopolitique).
 
-
-
-* **Modélisation & Résultats :**
+* **Modélisation & Résultats :** 
 
 Approches comparées : Régressions linéaires (échec sur la non-stationnarité) vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).
 Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.
 Performance : Supériorité sur la métrique Lift Top 100 et génération d'un alpha robuste malgré la cyclicité économique.
 
-* **Perspectives :**
+* **Perspectives :** 
 
 Généralisation : Confrontation avec d'autres fournisseurs de données pour éliminer les biais résiduels.
 Extension : Test de la méthode sur d'autres marchés géographiques pour valider les invariants structurels.
