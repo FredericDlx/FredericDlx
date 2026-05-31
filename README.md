@@ -3,7 +3,9 @@
 ---
 ### Prédire le rendement hebdomadaire des actions du DJIA.
 
-Résumé : Modélisation Prédictive du DJIA🎯 Objectif
+Résumé : 
+
+rapport complet : 
 
 **Objectif :** Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
 
