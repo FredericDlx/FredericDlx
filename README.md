@@ -14,15 +14,15 @@ Intégrité : Neutralisation du biais de survie (incluant les entreprises radié
 
 * **Méthodologie :** 
 
- *Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
- *Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
+ Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
+ Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
 
 * **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`.
 
 * **Modélisation & Résultats :** 
 
-Approches comparées : Régressions linéaires  vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).
-Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.
+Approches comparées : Régressions linéaires  vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).\
+Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.\
 Performance : Supériorité sur la métrique Lift Top 100 et génération d'un alpha robuste malgré la cyclicité économique.
 
 * **Perspectives :** 
