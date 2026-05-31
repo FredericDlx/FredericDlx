@@ -8,7 +8,6 @@ Résumé : Modélisation Prédictive du DJIA🎯 Objectif
 **Objectif :** Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
 
 * **Données :**
-
 Source : Agrégateur Sovai.
 Variables : Passage de 88 à 65 descripteurs robustes après élimination des données instables ou colinéaires.
 Intégrité : Neutralisation du biais de survie (incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
@@ -16,7 +15,9 @@ Intégrité : Neutralisation du biais de survie (incluant les entreprises radié
 * **Méthodologie :** 
 
 Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
-Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché :
+Validation : Partitionnement chronologique strict pour tester la robustesse face aux régimes de marché.
+
+* **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`.
 
 * **Modélisation & Résultats :** 
 
