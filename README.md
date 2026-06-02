@@ -74,7 +74,7 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
 
 Document détaillant l'implémentation informatique de l'algorithme CCF via le framework MapReduce https://www.cse.unr.edu/~hkardes/pdfs/ccf.pdf
 
-Rapport complet : Fichier local (ccf.html)
+Rapport complet :  https://fredericdlx.github.io/Component-connected/ccf.html
 
 **Objectif :** Mettre en œuvre et évaluer les concepts de l'algorithme "CCF" visant à dénombrer les composantes de très grands graphes connexes.\
 **Problématique :** Quelle est l'approche d'implémentation la plus performante et stable (PySpark vs Scala, RDD vs DataFrame) pour effectuer des traitements distribués sur des graphes de très grande taille ?\
