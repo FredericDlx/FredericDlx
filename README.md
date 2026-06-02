@@ -19,7 +19,7 @@ rapport complet : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-J
     Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
     Validation : Partitionnement chronologique pour tester la robustesse face aux régimes de marché.
 
-* **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`.
+* **Technologies :** `python`, `ElasticNet, ridge, XGBoost, LightGBM, Random Forest`,`Optuna`.
 
 * **Modélisation & Résultats :** 
 
