@@ -69,7 +69,23 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
     * *Fine-tuning* sur GPU Tesla P100.
 * **Résultat :** Benchmark détaillé démontrant l'efficacité de la spécialisation linguistique de **CamemBERT** sur les subtilités du français.
 
+---
 
+
+### CCF : Fast and Scalable Connected Component Computation in MapReduce
+
+Résumé : Document détaillant l'implémentation informatique de l'algorithme CCF via le framework MapReduce.
+
+Rapport complet : Fichier local (ccf.html)
+
+**Objectif :** Mettre en œuvre et évaluer les concepts de l'algorithme "CCF" visant à dénombrer les composantes de très grands graphes connexes.
+**Problématique :** Quelle est l'approche d'implémentation la plus performante et stable (PySpark vs Scala, RDD vs DataFrame) pour effectuer des traitements distribués sur des graphes de très grande taille ?
+**Technologies :** Python, PySpark, Scala, Apache Spark, MapReduce, RDD (Resilient Distributed Datasets), DataFrame.
+**Points clés :** Modélisation de problèmes complexes (réseaux sociaux, analyse médicale) sous forme de grands graphes connexes.
+
+**Implémentation de trois variantes de l'algorithme : CCF-Iterate, CCF-Iterate avec tri secondaire, et CCF-Dedup.**
+
+**Résultat :** Le benchmark montre qu'il faut privilégier PySpark pour sa robustesse et Scala pour la performance.
 
 ---
 
