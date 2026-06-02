@@ -95,17 +95,15 @@ Rapport complet : https://fredericdlx.github.io/Data-Quality/Project_Data_Qualit
 * **Technologies :** `Python`, `sparse binary tensor`
 
 * **Conclusion**
-    We implemented a row-level provenance capture system for the four core operations (filter, merge, concat, SMOTE), extended with two utility decorators (dropna and a 1-to-1 hook). All decorators share a uniform four-step pattern, which keeps the Prov class small and the API consistent across operations.
+      We implemented a row-level provenance capture system for the four core operations (filter, merge, concat, SMOTE), extended with two utility decorators (dropna and a 1-to-1 hook). All decorators share a uniform four-step pattern, which keeps       the Prov class small and the API consistent across operations.
 
-  Three results stand out:
+    Three results stand out:
 
-  Massive Compression: Compression up to ~900× versus dense storage, thanks to the sparse boolean CSR format.
+        Massive Compression: Compression up to ~900× versus dense storage, thanks to the sparse boolean CSR format.
+        Low Execution Overhead: Low overhead on realistic workloads: +2% on Census (1.1 s pipeline), rising to +7-25% on the smaller pipelines where the per-step instrumentation cost weighs more relative to the few-millisecond baseline.
+        High-Performance Tracking: Near-instantaneous queries, since looking up provenance reduces to a single sparse row or column slice.
 
-  Low Execution Overhead: Low overhead on realistic workloads: +2% on Census (1.1 s pipeline), rising to +7-25% on the smaller pipelines where the per-step instrumentation cost weighs more relative to the few-millisecond baseline.
-
-  High-Performance Tracking: Near-instantaneous queries, since looking up provenance reduces to a single sparse row or column slice.
-
-  Taken together, these results show that the system imposes a marginal cost on realistic pipelines while keeping its memory footprint orders of magnitude below the data it tracks — making row-level provenance practical to enable by default.
+    Taken together, these results show that the system imposes a marginal cost on realistic pipelines while keeping its memory footprint orders of magnitude below the data it tracks — making row-level provenance practical to enable by default.
 ---
 
 
