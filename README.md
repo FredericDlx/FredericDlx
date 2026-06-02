@@ -50,8 +50,6 @@ Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-cours
     * Approche hybride **Clustering + Elastic Net** pour capturer les spécificités par quartier.
 * **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost, **5,8 min** avec Elastic Net + Kmeans et **6,4 min** avec de la régression simple.
 
-
-
 ---
 
 ### Classification d'articles de presse (NLP)
@@ -74,16 +72,16 @@ Rapport complet : https://fredericdlx.github.io/Projet-LLM---Classification-d-ar
 
 ### CCF : Fast and Scalable Connected Component Computation in MapReduce
 
-Résumé : Document détaillant l'implémentation informatique de l'algorithme CCF via le framework MapReduce.
+Document détaillant l'implémentation informatique de l'algorithme CCF via le framework MapReduce https://www.cse.unr.edu/~hkardes/pdfs/ccf.pdf
 
 Rapport complet : Fichier local (ccf.html)
 
-**Objectif :** Mettre en œuvre et évaluer les concepts de l'algorithme "CCF" visant à dénombrer les composantes de très grands graphes connexes.
-**Problématique :** Quelle est l'approche d'implémentation la plus performante et stable (PySpark vs Scala, RDD vs DataFrame) pour effectuer des traitements distribués sur des graphes de très grande taille ?
-**Technologies :** Python, PySpark, Scala, Apache Spark, MapReduce, RDD (Resilient Distributed Datasets), DataFrame.
-**Points clés :** Modélisation de problèmes complexes (réseaux sociaux, analyse médicale) sous forme de grands graphes connexes.
+**Objectif :** Mettre en œuvre et évaluer les concepts de l'algorithme "CCF" visant à dénombrer les composantes de très grands graphes connexes.\
+**Problématique :** Quelle est l'approche d'implémentation la plus performante et stable (PySpark vs Scala, RDD vs DataFrame) pour effectuer des traitements distribués sur des graphes de très grande taille ?\
+**Technologies :** Python, PySpark, Scala, Apache Spark, MapReduce, RDD (Resilient Distributed Datasets), DataFrame.\
+**Points clés :** Modélisation de problèmes complexes (réseaux sociaux, analyse médicale) sous forme de grands graphes connexes.\
 
-**Implémentation de trois variantes de l'algorithme : CCF-Iterate, CCF-Iterate avec tri secondaire, et CCF-Dedup.**
+**Implémentation de deux variantes de l'algorithme : CCF-Iterate, CCF-Iterate avec tri secondaire.**
 
 **Résultat :** Le benchmark montre qu'il faut privilégier PySpark pour sa robustesse et Scala pour la performance.
 
