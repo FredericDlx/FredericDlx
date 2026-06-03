@@ -119,5 +119,13 @@ Rapport complet : https://fredericdlx.github.io/Data-Quality/Project_Data_Qualit
 
     Taken together, these results show that the system imposes a marginal cost on realistic pipelines while keeping its memory footprint orders of magnitude below the data it tracks — making row-level provenance practical to enable by default.
 ---
-
+### In progress - Flight Project
+* **Consider the following paper** https://www.dropbox.com/s/4rqnjueuqi5e0uo/TIST-Flight-Delay- nal.pdf
+* **Half of the paper is dedicated to data preparation by preprocesing and opportunely joining complex datasets about ights and
+weather conditions
+* **The report should detail each step**, comment encountered di culties and how these have been overcome.
+* **Data preparation and transformation** are time-consuming, the join operation is rather complex
+* **Decision-tree, use Spark ML** (do not implement it from scratch)
+* **Use of other models are welcome**
+* **Scala**
 
