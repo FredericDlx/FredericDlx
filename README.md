@@ -1,6 +1,13 @@
 # Projets en Data Science & IA 
 
 ---
+### Distillation et pruning : comment atteindre plus de 50% de précision au Go avec un modèle d'IA miniature.
+
+**Objectif :** Ce document présente les différentes étapes, architectures de modèles et techniques
+d’optimisation (Distillation et Pruning) étudiés pour concevoir un modèle performant au jeu de
+Go, tout en respectant une contrainte stricte de taille (environ 100k paramètres).
+
+---
 ### Prédire le rendement hebdomadaire des actions du DJIA.
 
 Résumé : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-Jones-30-par-Machine-Learning/ratios-fondamentaux-djia-resume.html
