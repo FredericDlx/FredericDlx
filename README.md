@@ -1,5 +1,7 @@
 # Projets en Data Science & IA 
 
+Résumé : Frederic_Delcroix_Rapport_Jeu_de_Go_Executive_Master_IA_Sciences_Des_donnees_2026.pdf
+
 ---
 ### Atteindre près de 50% de précision au Go avec une IA miniature
 
