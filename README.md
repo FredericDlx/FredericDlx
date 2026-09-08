@@ -1,11 +1,31 @@
 # Projets en Data Science & IA 
 
 ---
-### Distillation et pruning : comment atteindre plus de 50% de précision au Go avec un modèle d'IA miniature.
+### Atteindre près de 50% de précision au Go avec une IA miniature
+1. Objectif
+Concevoir un réseau de neurones capable d'évaluer le plateau de Go et de prédire le meilleur coup.
 
-**Objectif :** Ce document présente les différentes étapes, architectures de modèles et techniques
-d’optimisation (Distillation et Pruning) étudiés pour concevoir un modèle performant au jeu de
-Go, tout en respectant une contrainte stricte de taille (environ 100k paramètres).
+Respecter une contrainte matérielle stricte en limitant la taille du modèle à environ 100 000 paramètres.
+
+2. Données et Environnement
+Utilisation de la librairie golois pour encoder l'état du goban sous la forme de 31 plans spatiaux (19x19).
+
+Intégration de caractéristiques expertes complexes (historique, décompte des libertés, ladders) pour guider l'apprentissage.
+
+3. Méthodologie et Stack Technique
+Évaluation de plusieurs architectures convolutives économes en paramètres (ResNet, MobileNetV2, SE+Swish, MixNet).
+
+Application de stratégies de compression avancées via la Distillation de connaissances et l'Élagage (Pruning).
+
+4. Modélisation et Résultats
+Parmi les modèles de 100k paramètres entraînés de zéro, l'architecture SE + Swish domine avec 47,2% de précision.
+
+La meilleure performance globale (49,0%) est atteinte par l'Élagage progressif d'un modèle Professeur réduit à une sparsité de 66,6%.
+
+5. Perspectives
+Maximiser la technique de distillation en exploitant un modèle Professeur beaucoup plus large et puissant.
+
+Explorer de nouvelles méthodes d'élagage, telles que le Movement Pruning, pour repousser le plafond de précision actuel.
 
 ---
 ### Prédire le rendement hebdomadaire des actions du DJIA.
