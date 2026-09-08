@@ -11,17 +11,17 @@
 
 Intégration de caractéristiques expertes complexes (historique, décompte des libertés, ladders) pour guider l'apprentissage.
 
-3. Méthodologie et Stack Technique
+* **Méthodologie et Stack Technique :**
 Évaluation de plusieurs architectures convolutives économes en paramètres (ResNet, MobileNetV2, SE+Swish, MixNet).
 
 Application de stratégies de compression avancées via la Distillation de connaissances et l'Élagage (Pruning).
 
-4. Modélisation et Résultats
+* **Modélisation et Résultats :**
 Parmi les modèles de 100k paramètres entraînés de zéro, l'architecture SE + Swish domine avec 47,2% de précision.
 
 La meilleure performance globale (49,0%) est atteinte par l'Élagage progressif d'un modèle Professeur réduit à une sparsité de 66,6%.
 
-5. Perspectives
+* **Perspectives :**
 Maximiser la technique de distillation en exploitant un modèle Professeur beaucoup plus large et puissant.
 
 Explorer de nouvelles méthodes d'élagage, telles que le Movement Pruning, pour repousser le plafond de précision actuel.
