@@ -2,7 +2,8 @@
 
 ---
 ### Atteindre près de 50% de précision au Go avec une IA miniature
-1. Objectif
+
+** Objectif : **
 Concevoir un réseau de neurones capable d'évaluer le plateau de Go et de prédire le meilleur coup.
 
 Respecter une contrainte matérielle stricte en limitant la taille du modèle à environ 100 000 paramètres.
