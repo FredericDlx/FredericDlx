@@ -3,13 +3,11 @@
 ---
 ### Atteindre près de 50% de précision au Go avec une IA miniature
 
-** Objectif : **
-Concevoir un réseau de neurones capable d'évaluer le plateau de Go et de prédire le meilleur coup.
+**Objectif :** Concevoir un réseau de neurones capable d'évaluer le plateau de Go et de prédire le meilleur coup.
+               Respecter une contrainte matérielle stricte en limitant la taille du modèle à environ 100 000 paramètres.
 
-Respecter une contrainte matérielle stricte en limitant la taille du modèle à environ 100 000 paramètres.
-
-2. Données et Environnement
-Utilisation de la librairie golois pour encoder l'état du goban sous la forme de 31 plans spatiaux (19x19).
+* **Données et Environnement :**
+    Utilisation de la librairie golois pour encoder l'état du goban sous la forme de 31 plans spatiaux (19x19).
 
 Intégration de caractéristiques expertes complexes (historique, décompte des libertés, ladders) pour guider l'apprentissage.
 
