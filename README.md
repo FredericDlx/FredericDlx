@@ -31,39 +31,6 @@ Intégration de caractéristiques expertes complexes (historique, décompte des 
     Explorer de nouvelles méthodes d'élagage, telles que le Movement Pruning, pour repousser le plafond de précision actuel.
 
 ---
-### Prédire le rendement hebdomadaire des actions du DJIA.
-
-Résumé : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-Jones-30-par-Machine-Learning/ratios-fondamentaux-djia-resume.html
-
-rapport complet : https://fredericdlx.github.io/Pr-diction-Hebdomadaire-du-Dow-Jones-30-par-Machine-Learning/ratios-fondamentaux-djia.html
-
-**Objectif :** Développer un pipeline d'apprentissage statistique pour prévoir les rendements hebdomadaires du Dow Jones Industrial Average (DJIA) et isoler les déciles supérieurs afin de générer de l'alpha (surperformance).
-
-* **Données :**
-    Source : Agrégateur Sovai.
-    Variables : Passage de 88 à 65 descripteurs robustes après élimination des données instables ou colinéaires.
-    Intégrité : Neutralisation du biais de survie (en incluant les entreprises radiées comme GE, Kodak) et prévention des fuites d'information (data leakage) par confrontation des données 2024/2026.
-
-* **Méthodologie :** 
-
-    Prétraitement : Normalisation robuste (RobustScaler), réduction de dimension (ACP) et intégration de variables retardées (lags).
-    Validation : Partitionnement chronologique pour tester la robustesse face aux régimes de marché.
-
-* **Technologies :** `python`, `ElasticNet`, `ridge`, `XGBoost`, `LightGBM`, `Random Forest`,`Optuna`.
-
-* **Modélisation & Résultats :** 
-
-    Approches comparées : Régressions linéaires  vs. Ensembles arborescents (XGBoost, LightGBM, Random Forest).  
-    Meilleure performance : Architecture de Stacking (combinaison des modèles) optimisée par recherche bayésienne.  
-    Performance : Supériorité sur la métrique Lift Top 100 et génération d'un alpha robuste malgré la cyclicité économique.
-
-* **Perspectives :** 
-
-    Généralisation : Confrontation avec d'autres fournisseurs de données pour éliminer les biais résiduels.  
-    Extension : Test de la méthode sur d'autres marchés géographiques.
-
-
----
 
 ### Prédire la durée des courses de taxi à New-York City
 
