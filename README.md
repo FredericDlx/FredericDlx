@@ -32,23 +32,6 @@ Intégration de caractéristiques expertes complexes (historique, décompte des 
 
 ---
 
-### Prédire la durée des courses de taxi à New-York City
-
-Résumé : https://github.com/FredericDlx/Prediction-de-la-dur-e-des-courses-de-taxi-NYC
-
-Rapport complet : https://fredericdlx.github.io/Prediction-de-la-dur-e-des-courses-de-taxi-NYC/PredictionTaxisNY.html
-
-**Objectif :** Prédire avec précision la durée des trajets de taxi à New York en combinant analyse spatio-temporelle et modèles de régression avancés.
-
-* **Problématique :** Comment la congestion urbaine et la géométrie de la ville influencent-elles le temps de transport ?
-* **Technologies :** `R`, `XGBoost`, `ElasticNet`, `K-Means`.
-* **Points clés :** 
-    * *Feature Engineering* complexe (Distances Haversine/Manhattan, encodage cyclique du temps).
-    * Approche hybride **Clustering + Elastic Net** pour capturer les spécificités par quartier.
-* **Résultat :** Réduction de l'erreur (RMSE) à **5,1 min** avec XGBoost, **5,8 min** avec Elastic Net + Kmeans et **6,4 min** avec de la régression simple.
-
----
-
 
 
 
